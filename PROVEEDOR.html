@@ -1,0 +1,146 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta http-equiv="X-UA-Compatible" content="ie=edge">
+    <link rel="icon" href="icon.ico">
+    <title>Pernod Ricard México</title>
+    <link rel="stylesheet" href="style.css">
+</head>
+<body>
+    <section class="content sau">
+        <img class="logo" src="LB.png">
+        <h2 class="title">LA SEGURIDAD ES UNA
+            PRIORIDAD EN PERNOD
+            RICARD, POR ESO
+            TE COMPARTIMOS LAS
+            SIGUIENTES REGLAS PARA
+            TU INGRESO A NUESTRAS
+            OFICINAS.
+        </h2>
+        <h3>Normas de Circulación.</h3>
+        <h3>Ten en cuenta:</h3>
+        <p>• Siempre deberás registrarte previamente a tu ingreso en la recepción del edificio presentando una identificación oficial (INE, pasaporte, licencia).<br>
+            • Internamente, está permitido caminar por los diferentes niveles del edificio, siempre acompañados de personal de Pernod Ricard México.<br>
+            • Para subir por las escaleras del edificio es mandatorio el uso del barandal en todo momento del uso de las mismas.<br>
+            • Se recomienda evitar el uso del celular mientras vayas caminando.<br>
+            • Terminada su reunión o visita es necesario que firme su salida y recoja su documento de identificación.<br>
+        </p><br>
+        <div class="box-container">
+            <h2>¿Qué hacer en caso de una Emergencia?</h2>
+            <div class="box">
+                <img src="SILUETA1.png">
+                <h3>Da aviso inmediato al personal de Pernod Ricard.</h3>
+            </div>
+            <div class="box">
+                <img src="SILUETA2.png">
+                <h3>Da aviso al responsable de H&S.</h3>
+            </div>
+            <div class="box">
+                <img src="SILUETA3.png">
+                <h3>Da aviso verbal al personal de vigilancia.</h3>
+            </div>
+            <div class="box">
+                <img src="SILUETA4.png">
+                <h3>Ubica a un brigadista.</h3>
+            </div><br>
+        </div>
+    </section>
+
+    <section class="content exit">
+        <div class="exit-container">
+            <h2>En caso de evacuación sigue las indicaciones</h2>
+            <div class="exit">
+                <img src="ICON-01.png" alt="">
+                <p><span>ESCUCHA</span> LA SIRENA.</p>
+            </div>
+
+            <div class="exit">
+                <img src="ICON-02.png" alt="">
+                <p><span>MANTEN</span> LA CALMA.</p>
+            </div>
+
+            <div class="exit">
+                <img src="ICON-03.png" alt="">
+                <p><span>EVITA</span> EL USO DE ELEVADORES.</p>
+            </div>
+
+            <div class="exit">
+                <img src="ICON-04.png" alt="">
+                <p><span>ESCUCHA</span> LAS <span>INDICACIONES</span> DE LOS BRIGADISTAS.</p>
+            </div>
+
+            <div class="exit">
+                <img src="SILUETA4.png" alt="">
+                <p>En caso de requerir evacuar el edificio,<span> RESPETA LAS INDICACIONES.</span></p>
+            </div>
+
+            <div class="exit">
+                <img src="ICON-06.png" alt="">
+                <p><span>UBICA</span> LA SALIDA DE EMERGENCIA.</p>
+            </div>
+
+            <div class="exit">
+                <img src="ICON-07.png" alt="">
+                <p><span>DIRIGETE</span> AL PUNTO DE ENCUENTRO.</p>
+            </div>
+        </div>
+    </section>
+    <hr>
+    <section class="content about">
+        <div class="about-container">
+            <div class="about">
+                <img src="FUMAR-16.png">
+                <p>Ubica la señalización de los espacios donde está permitido fumar.</p><br>
+            </div>
+        </div>
+    </section>
+
+    <section class="content doc">
+        <div class="doc-container">
+            <h2 class="title">¿QUÉ HACER EN CASO DE SENTIRTE MAL FÍSICAMENTE EN EL EDIFICIO?</h2><br>
+            <div class="doc">
+                <img src="ICON-05.png">
+                <p>Da aviso al personal de Pernod Ricard más cercano.</p>
+            </div>
+
+            <div class="doc">
+                <img src="ICON-10.png">
+                <p>Ubica el consultorio médico del edificio (Ubicado en el piso dos).</p>
+            </div>
+
+            <div class="doc">
+                <img src="ICON-09.png">
+                <p>Has caso de las indicaciones del personal especializado para tú atención.</p>
+            </div>
+
+            <div class="doc">
+                <img src="ICON-08.png">
+                <p>Si tienes síntomas de enfermedad previo a tu cita, evita acudir al edificio y avisa a tu anfitrión.</p>
+            </div>
+        </div>
+    </section>
+
+    <section class="form-register">
+        <h4>Formulario Registro</h4>
+        <form action="guardar_registro.php" method="post">
+            <input class="controls" type="text" name="Nombre" id="Nombre" placeholder="Ingresa tu nombre" required>
+            <br>
+            <input class="controls" type="email" name="Correo" id="Correo" placeholder="Correo electrónico" required>
+            <br>
+            <input class="controls" type="text" name="Compañia" id="Compañia" placeholder="Compañía que representa" required>
+            <br>
+            <input class="controls" type="text" name="Visita" id="Visita" placeholder="¿A quién entrega?" required>
+            <br>
+            <p>Acepto que he leído y comprendo las normas y reglas de seguridad necesarias para el ingreso a las oficinas NO industriales de Pernod Ricard México (PRM), las que esta última ha puesto a mi disposición para mi revisión de manera oportuna, y me comprometo a cumplirlas en su totalidad.</p>
+            <br>
+            <input class="option" type="radio" name="gender" value="yes" required> SI
+            <br>
+            <input class="option" type="radio" name="gender" value="no" required> NO
+            <br>
+            <input class="botons" type="submit" value="Registrar">
+        </form>
+    </section>
+</body>
+</html>

@@ -1,0 +1,68 @@
+@import url('https://fonts.googleapis.com/css2?family=Bebas+Neue&display=swap');
+*{
+    margin: 0;
+    padding: 0;
+    border: 0;
+    font-size: 100%;
+    vertical-align: baseline;
+}
+body{
+    text-align: center;
+    font-family: "Bebas Neue", sans-serif;
+    background-image: url(FONDO.png);
+    background-repeat: no-repeat;
+    background-size: 100% 100vh;
+}
+.header{
+    padding: 2% 0;
+}
+.header-container{
+    display: flex;
+    justify-content: center;
+    flex-wrap: wrap;
+    text-align: center;
+}
+.header-container h2{
+    margin-top: -20px;
+    font-size: 60px;
+    text-transform: uppercase;
+    color: #ffffff;
+}
+.header-container p{
+    font-family: "Work Sans", sans-serif;
+    font-size: 18px;
+    color: #ffffff;
+    text-align: justify;
+    margin: 30px 100px 30px 100px;
+}
+.btn{
+    font-family: Arial, Helvetica, sans-serif;
+    display: inline-block;
+    margin-top: 15px;
+    padding: 10px 40px;
+    border: 2px solid#f9b214;
+    color: #ffffff;
+    text-decoration: none;
+    background-image: linear-gradient(#f9b214,#f2921a);    border-radius: 30px;
+    min-width: 200px;
+}
+.btn:hover{
+    background: none;
+}
+.logoi{
+    margin-top: -10px;
+    width: 130px;
+    height: 130px;
+    margin-bottom: 20px;
+}
+.logod{
+    margin-top: -5px;
+    width: 130px;
+    height: 130px;
+    margin-left: 150px;
+}
+.logo{
+    padding-top: 15px;
+    width: 70px;
+    height: 70px;
+}

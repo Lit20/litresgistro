@@ -1,0 +1,324 @@
+@import url('https://fonts.googleapis.com/css2?family=Bebas+Neue&display=swap');
+*{
+    margin: 0;
+    padding: 0;
+    border: 0;
+    font-size: 100%;
+    vertical-align: baseline;
+}
+body{
+    text-align: center;
+    font-family: "Bebas Neue", sans-serif;
+}
+.sau .logo{
+    margin-top: -30px;
+    width: 100px;
+    height: 100px;
+    margin-bottom: 10px;
+}
+.sau{
+    padding: 50px 0;
+    background-image: linear-gradient(#2058a8,#194091);}
+
+.sau h2{
+    color: #fcbf33;
+    font-family: "Work Sans", sans-serif;
+    font-size: 33px;
+    margin-bottom: 50px;
+    margin-left: 40px;
+    margin-right: 40px;
+    text-align: center;
+}
+.sau h3{
+    font-family: "Work Sans", sans-serif;
+    margin-top: 10px;
+    color: #ffffff;
+    font-size: 30px;
+    text-align: justify;
+    margin-left: 50px;
+    margin-right: 50px;
+}
+.sau p{
+    font-family: "Work Sans", sans-serif;
+    margin-top: 20px;
+    color: #ffffff;
+    text-align: justify;
+    margin-left: 50px;
+    margin-right: 50px;
+    line-height: 20px;
+}
+
+.box-container h2{
+    margin-top: 10px;
+    font-family: "Bebas Neue", sans-serif;
+    color: #fcbf33;
+    font-size: 45px;
+    text-align: center;
+}
+.box-container h3{
+    font-family: "Work Sans", sans-serif;
+    font-style: normal;
+    font-weight: bolder;
+    margin: 15px auto 3em;
+    font-size: 22px;
+    text-align: center;
+}
+.box-container {
+    display: flex;
+    justify-content: center;
+    flex-wrap: wrap;
+    text-align: center;
+}
+
+.box-container .box{
+    height: 170px;
+    width: 270px;
+    background: #141414;
+    text-align: center;
+    border-radius: 20px;
+    box-shadow: 0 5px 5px rgba(0, 0, 0, .3);
+    margin: 40px;
+}
+
+.box-container .box img{
+    height: 80px;
+    width: 80px;
+    object-fit: cover;
+    border-radius: 50%;
+    margin-top: -50px;
+    border: 6px solid #e30429;
+}
+
+.box-container .box h3{
+    margin-top: 30px;
+    font-size: 22px;
+    color: #fcbf33;
+}
+
+
+.exit{
+    padding: 50px 0;
+    background: #ffffff;
+}
+.exit-container h2{
+    color: #fcbf33;
+    font-size: 40px;
+    text-align: center;
+    margin-bottom: 40px;
+    margin-left: 20px;
+    margin-right: 20px;
+}
+.exit-container {
+    display: flex;
+    justify-content: center;
+    flex-wrap: wrap;
+    text-align: center;
+}
+
+.exit-container .exit {
+    padding: 10px 0;
+    height: 180px;
+    width: 270px;
+    background-image: linear-gradient(#2058a8,#194091);
+    text-align: center;
+    border-radius: 20px;
+    margin: 40px;
+    box-shadow: 0 5px 5px rgba(0, 0, 0, .5);
+}
+.exit-container .exit img{
+    height: 80px;
+    width: 80px;
+    object-fit: cover;
+    border-radius: 50%;
+    margin-top: -50px;
+    border: 6px solid #e30429;
+}
+
+.exit-container .exit p{
+    font-family: "Work Sans", sans-serif;
+    font-style: normal;
+    font-weight: bolder;
+    font-size: 22px;
+    color: #ffffff;
+    margin: 25px auto 3em;
+}
+.exit-container .exit p span{
+    color: #fcbf33;
+}
+
+hr {
+    height: 15px;
+    width: 400px;
+    background-color: #04a65b;
+    margin: auto;
+  }
+.about {
+    background: #ffffff;
+    padding: 50px 0;
+}
+.about-container {
+    display: flex;
+    justify-content: center;
+    flex-wrap: wrap;
+    text-align: center;
+}
+
+.about-container .about {
+    padding: 10px 0;
+    height: 500px;
+    width: 400px;
+    text-align: center;
+
+}
+.about-container p{
+    font-family: "Work Sans", sans-serif;
+    font-style: normal;
+    font-weight: bolder;
+    margin-left: 20px;
+    margin-right: 20px;
+    margin-top: 10px;
+    font-size: 30px;
+    color: #04a65b;
+}
+.about-container .about img{
+    width: 320px;
+    height: 450px;
+    border-radius: 5%;
+    margin: 20px;
+    box-shadow: 0 5px 5px rgba(5, 5, 5, .5);
+}
+
+.doc{
+    padding: 50px 0;
+    background: #ffffff;
+}
+.doc-container h2{
+    margin-top: 50px;
+    color: #194091;
+    font-size: 40px;
+    text-align: center;
+    margin-bottom: 20px;
+    margin-left: 20px;
+    margin-right: 20px;
+}
+.doc-container {
+    display: flex;
+    justify-content: center;
+    flex-wrap: wrap;
+    text-align: center;
+}
+
+.doc-container .doc {
+    padding: 10px 0;
+    height: 180px;
+    width: 400px;
+    background-image: linear-gradient(#2058a8,#194091);
+    text-align: center;
+    border-radius: 20px;
+    margin: 30px;
+    box-shadow: 0 5px 5px rgba(0, 0, 0, .5);
+}
+.doc-container .doc img{
+    height: 150px;
+    width: 150px;
+    object-fit: cover;
+    border-radius: 50%;
+    margin-left: 50%;
+    margin-top: 3%;
+}
+
+.doc-container .doc p{
+    font-family: "Work Sans", sans-serif;
+    font-style: normal;
+    font-weight: bolder;
+    font-size: 20px;
+    color: #ffffff;
+    margin-top: -145px;
+    margin-left: 20px;
+    margin-right: 180px;
+    text-align: left;
+}
+
+.form-register{
+    width: 460px;
+    background-image: linear-gradient(#2058a8,#194091);
+    padding: 50px 0;
+    margin: auto;
+    margin-top: 10px;
+    border-radius: 10px;
+    font-family: "Work Sans", sans-serif;
+    color: white;
+}
+
+.form-register h4{
+    font-size: 40px;
+    color: #fcbf33;
+}
+.controls {
+    width: 350px;
+    background: #ffffff;
+    padding: 10px;
+    border-radius: 30px;
+    margin-bottom: 16px;
+    border: 1px solid #1f53c5;
+    font-family: "Work Sans", sans-serif;
+    font-size: 18px;
+    color: #000;
+    letter-spacing: 1px;
+}
+.form-register p{
+    height: 200px;
+    font-size: 15px;
+    line-height: 23px;
+    text-align: justify;
+    margin: 30px 50px -30px 50px;
+}
+.form-register a{
+    color: white;
+    text-decoration: none;
+}
+.form-register a:hover{
+    color: white;
+    text-decoration: underline;
+}
+.form-register .option{
+    margin-bottom: 16px;
+}
+.form-register .botons{
+    display: inline-block;
+    margin-top: 15px;
+    padding: 10px 40px;
+    border: 2px solid#f9b214;
+    color: #ffffff;
+    text-decoration: none;
+    background-image: linear-gradient(#f9b214,#f2921a);
+    border-radius: 30px;
+    width: 80%;
+}
+.form-register .botons:hover{
+    background: none;
+}
+@media (max-width:320px){
+
+    .header{
+        min-height: 0vh;
+    }
+    .header-content{
+        padding: 130px 30 px 80px 30px;
+        flex-direction: column;
+    }
+    .header-txt{
+        width: 100%;
+        padding-right: 0;
+        text-align: center;
+        margin-bottom: 15px;
+    }
+    .header-txt h1{
+        font-size: 90px;
+        line-height: 100px;
+    }
+    .header-img{
+        width: 100%;
+    }
+
+}
